@@ -10,7 +10,7 @@ import PrivateRoute from "./components/PrivateRoute.jsx";
 import CreateListing from "./pages/CreateListing.jsx";
 import UpdateListing from "./pages/UpdateListing.jsx";
 import Listing from "./pages/listing.jsx";
-import Search from "./pages/search.jsx";
+import Search from "./pages/Search.jsx";
 export default function App() {
   return (
     <BrowserRouter>
