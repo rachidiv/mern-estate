@@ -13,7 +13,7 @@ import {
 } from "react-icons/fa";
 import "swiper/css/bundle";
 import { useSelector } from "react-redux";
-import Contact from "../components/Contact";
+import Contact from "../components/Contact.jsx";
 export default function Listing() {
   SwiperCore.use([Navigation]);
   const [listing, setListing] = useState(null);

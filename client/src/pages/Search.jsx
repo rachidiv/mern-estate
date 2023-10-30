@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { FaHandMiddleFinger } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
-import ListingItem from "../components/ListingItem";
+import ListingItem from "../components/ListingItem.jsx";
 export default function Search() {
   const navigate = useNavigate();
   const [loading, setLoading] = useState(false);
